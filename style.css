@@ -1,0 +1,333 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background: rgb(252, 252, 252);
+}
+header{
+    background: url("vs.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 450px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:90%;
+    height: 70px;
+    margin: 0 auto;
+}
+nav .app_link a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.rem;
+}
+nav .nav_items ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+nav .nav_items ul li a{
+    text-decoration: none;
+    color:#fff;
+    margin: 0 20px;
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+.content_wrapper{
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+/*.search_container{
+    display: flex;
+    align-items: center;
+    background: #fff;
+    height: 3.4rem;
+    width: 60%;
+    border-radius: 60px;
+}
+.search_container .left_search, .search_container .right_search{
+    display: inline-flex;
+    padding: 0 1rem;
+}
+.search_container.left_search{
+    width:30%;
+}
+.search_container.right_search{
+    width:70%;
+}
+.search_container input{
+    border: 0;
+    outline: none;
+    font-size: 1rem;
+    background: transparent;
+    color: grey;
+    width:100%;
+}*/
+
+/* Search Container */
+.search_container {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    height: 3.4rem;
+    width: 60%;
+    border-radius: 60px;
+    margin: 0 auto;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.search_container .left_search,
+.search_container .right_search {
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+    position: relative;
+}
+
+.left_search input,
+.right_search input {
+    border: 0;
+    outline: none;
+    font-size: 1rem;
+    background: transparent;
+    color: grey;
+    padding-left: 2rem; /* Space for the icon */
+    width: 100%;
+}
+
+.left_search img,
+.right_search img {
+    position: absolute;
+    left: 1rem; /* Position the icon inside the input */
+    width: 20px; /* Size of the icon */
+    height: 20px; /* Adjust as needed */
+}
+
+.left_search {
+    width: 30%;
+}
+
+.right_search {
+    width: 70%;
+}
+
+
+/*.......order section...*/
+.order-section{
+    width:90%;
+    margin: 0 auto;
+    text-align: center;
+}
+.order-section .order{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 4%;
+    margin-bottom: 40px;
+    flex-direction: row;
+}
+.order .card{
+    width: 30%;
+    margin: 12px;
+    border-radius: 8px;
+    border:1px solid rgb(250, 250, 250);
+    transition:transform 0.55;
+}
+.order .card a img{
+    width:100%;
+    height: 200px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+.order .card:hover{
+    transform: scale(1.1);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: rgb(252, 252, 252);
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Global card style */
+.card, .collection-card, .cafe-card {
+    width: 250px;
+    margin: 12px;
+    border-radius: 8px;
+    border: 1px solid #f5f5f5;
+    transition: transform 0.55s ease;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover, .collection-card:hover, .cafe-card:hover {
+    transform: scale(1.05);
+}
+
+.card img, .collection-card img, .cafe-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Collection Section */
+.collection-section {
+    width: 90%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.collection-grid {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.collection-card p {
+    font-size: 1.1rem;
+    margin-top: 8px;
+    font-weight: 600;
+    color: #333;
+}
+
+/* Famous Dishes Section */
+.famous-cafes-section {
+    width: 90%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.cafe-grid {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.cafe-card p {
+    font-size: 1.1rem;
+    margin-top: 8px;
+    font-weight: 600;
+    color: #333;
+}
+
+.cafe-card p .arrow {
+    font-size: 1.2rem;
+    color: #ff5a5f;
+}
+
+.cafe-card:hover .arrow {
+    transform: translateX(5px);
+    transition: transform 0.3s;
+}
+
+/* Existing Order Section */
+.order-section {
+    width: 90%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.order-section .order {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card .content {
+    padding: 10px;
+    text-align: left;
+}
+
+.card .heading {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.card .text {
+    font-size: 1rem;
+    color: grey;
+    margin-top: 10px;
+}
+/* About Us Section */
+.about-section {
+    width: 90%;
+    margin: 50px auto;
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.about-section p {
+    font-size: 1.1rem;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media p {
+    margin-right: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.social-media a {
+    margin: 0 10px;
+}
+
+.social-media img {
+    width: 40px;  /* Set a fixed width */
+    height: 40px; /* Set a fixed height */
+    object-fit: cover; /* Ensures the image fits within the box */
+    transition: transform 0.3s ease;
+}
+
+.social-media img:hover {
+    transform: scale(1.1);
+}

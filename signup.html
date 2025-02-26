@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Delivery - Login/Signup</title>
+    <link rel="stylesheet" href="log.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <div class="form-toggle">
+                <button id="loginBtn" class="active">Login</button>
+                <button id="signupBtn">Signup</button>
+            </div>
+
+            <!-- Login Form -->
+            <form id="loginForm" class="form active">
+                <h2>Login</h2>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit">Login</button>
+                <p>Or login with OTP</p>
+                <button type="button" class="otp-btn" id="otpLoginBtn">Login with OTP</button>
+            </form>
+
+            <!-- Signup Form -->
+            <form id="signupForm" class="form">
+                <h2>Signup</h2>
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                <input type="tel" placeholder="Phone Number" required>
+                <button type="submit">Signup</button>
+            </form>
+
+            <!-- OTP Form -->
+            <form id="otpForm" class="form">
+                <h2>Login with OTP</h2>
+                <input type="tel" placeholder="Phone Number" required>
+                <input type="text" placeholder="Enter OTP" required>
+                <button type="submit">Verify OTP</button>
+                <button type="button" id="resendOtpBtn">Resend OTP</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Link to login.js -->
+    <script src="scriptt.js"></script>
+</body>
+</html>

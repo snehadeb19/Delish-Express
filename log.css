@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    background-image: url("bg3.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 400px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.form-container {
+    width: 100%;
+}
+
+.form-toggle {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.form-toggle button {
+    padding: 10px 20px;
+    background-color: #eee;
+    border: none;
+    cursor: pointer;
+}
+
+.form-toggle button.active {
+    background-color: #f57474;
+    color: white;
+    .form-toggle button.active {
+        background-color: #f57474;
+        color: white;
+    }
+}
+    
+    .form {
+        display: none;
+    }
+    
+    .form.active {
+        display: block;
+    }
+    
+    h2 {
+        margin-bottom: 20px;
+        color: #333;
+    }
+    
+    input {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    
+    button {
+        width: 100%;
+        padding: 10px;
+        background-color: #f57474;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        background-color: #f57474;
+    }
+    
+    .otp-btn {
+        background-color: #f57474;
+    }
+    
+    .otp-btn:hover {
+        background-color: #e7e966;
+    }
+    
+    p {
+        margin: 10px 0;
+    }
+    
+    .resend-otp {
+        margin-top: 10px;
+    }
+    
+    .resend-otp button {
+        background: none;
+        border: none;
+        color: #e7e966;
+        cursor: pointer;
+    }
+    
+    .resend-otp button:hover{
+        text-decoration: underline;
+    }

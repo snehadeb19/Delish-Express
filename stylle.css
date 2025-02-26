@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgba(0, 0, 0, 0.7) url("bg.jpg")center center fixed;
+background-size: cover;
+background-blend-mode: darken;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.Container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Container h1{
+    color:orangered;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.navbar ul li{
+    display: inline-block;
+    padding: 18px;
+    text-transform: uppercase;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 4px
+}
+.navbar ul li a:hover{
+box-shadow: 0 3px 50px orangered inset, 0 3px 50px orangered inset,
+0 3px 50px orangered inset, 0 3px 50px orangered inset;
+}
+.content{
+    position: absolute;
+    color: #fff;
+    top: 40%;
+    left:30%
+}
+.content h3{
+    font-family: sans-serif;
+    font-size: 30px;
+    margin-left: 20%;
+}
+.content h1{
+    font: 20px;
+    margin-left: 31%;
+}
+.content p{
+    text-align: center;
+    margin-top: 17px;
+}
+.search{
+    position:absolute;
+    margin-top: 25%;
+    margin-left: 42%;
+}
+.search input{
+    outline: none;
+    border: none;
+    padding: 12px 40px;
+    size: 1cm;
+    width: 100%
+}
+.Submit{
+    position:absolute;
+    margin-top: 30%;
+    margin-left: 50%;
+}
+.Submit a{
+    text-decoration: none;
+    color: #fff;
+    padding: 12px 25px;
+    background-color: orangered;
+}
+/* About Section */
+/* About Section */
+.about {
+    background: rgba(0, 0, 0, 0.7) url("aboutus.jpg") center center fixed;
+    background-size: cover;
+    background-blend-mode: darken;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-content {
+    color: #fff;
+    text-align: center;
+}
+
+.about-content h3 {
+    font-size: 30px;
+}
+
+.about-content h1 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.about-content p {
+    margin-top: 17px;
+    max-width: 600px;
+}
+
+
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+/* Home Section */
+.home {
+    background: rgba(0, 0, 0, 0.7) url("bg.jpg") center center fixed;
+    background-size: cover;
+    background-blend-mode: darken;
+    min-height: 100vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+.Container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px; /* Adjust as needed */
+    box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+.Container h1 {
+    color: orangered;
+    cursor: pointer;
+    margin: 0; /* Remove default margin */
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    padding: 18px;
+    text-transform: uppercase;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 4px;
+}
+
+.navbar ul li a:hover {
+    box-shadow: 0 3px 50px orangered inset, 0 3px 50px orangered inset,
+                0 3px 50px orangered inset, 0 3px 50px orangered inset;
+}
+
+.content {
+    margin-top: 20px; /* Adjust based on content */
+}
+
+.content h3 {
+    font-size: 30px;
+}
+
+.content h1 {
+    font-size: 20px;
+}
+
+.content p {
+    margin-top: 17px;
+}
+
+.search {
+    margin-top: 25px;
+}
+
+.search input {
+    outline: none;
+    border: none;
+    padding: 12px 40px;
+    width: 300px; /* Adjust based on design */
+}
+
+.Submit {
+    margin-top: 15px;
+}
+
+.Submit a {
+    text-decoration: none;
+    color: #fff;
+    padding: 12px 25px;
+    background-color: orangered;
+}
+
+/* About Section */
+.about {
+    background: rgba(0, 0, 0, 0.7) url("aboutus.jpg") center center fixed;
+    background-size: cover;
+    background-blend-mode: darken;
+    min-height: 100vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+.about-content {
+    max-width: 800px;
+    padding: 20px; /* Optional: Add padding for better readability */
+}
+
+.about-content h3 {
+    font-size: 30px;
+}
+
+.about-content h1 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.about-content p {
+    margin-top: 17px;
+}
